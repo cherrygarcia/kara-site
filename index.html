@@ -213,28 +213,15 @@
         </span>
     </div> <!-- end footer -->
 
-    <script src="js/vendor/jquery-1.4.4.min.js" type="text/javascript"></script>
-    <script src="js/vendor/jquery-ui-1.8.10.custom.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-        $("#accordion").accordion({
-            collapsible: true,
-            header: 'div.publication',
-            alwaysOpen: false,
-            active: false,
-            autoHeight: false
-        });
-    });
+      var username = "kara.rudolph";
+      var hostname = "gmail.com";
+      var email = username + "@" + hostname;
+      document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>'
+      document.getElementById("contact").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>'
 
-
-    var username = "kara.rudolph";
-    var hostname = "gmail.com";
-    var email = username + "@" + hostname;
-    document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>'
-    document.getElementById("contact").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>'
-
-    var lmd = new Date(Date.parse(document.lastModified));
-    document.getElementById("last_update").innerHTML = lmd.toDateString();
+      var lmd = new Date(Date.parse(document.lastModified));
+      document.getElementById("last_update").innerHTML = lmd.toDateString();
     </script>
 
 
