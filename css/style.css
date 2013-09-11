@@ -43,7 +43,7 @@ body {
 #footer {
 	width: 700px;
 	margin: 15px auto;
-	background: #CCCCCC; 
+	background: #CCCCCC;
 	padding: 1em 1em 1em;
 	border: 1px solid #000;
 	box-shadow: 5px 5px 15px 1px #000;
@@ -72,7 +72,7 @@ h2 {
 	line-height: .5;
 	padding-bottom: .5em;
 	color: #ffcc33;
-	
+
 }
 
 h3 {
@@ -117,7 +117,7 @@ a:active {color: #20504E; }
 }
 
 .abstract a, .abstract a:visited {
-	color: #306D60; 
+	color: #306D60;
 }
 .left {
 	float: left;
@@ -130,7 +130,7 @@ a:active {color: #20504E; }
 }
 
 #header_info {
-	//float: left;
+	/*float: left;*/
 	width: 50%;
 }
 #header_photo {
@@ -139,7 +139,7 @@ a:active {color: #20504E; }
 
 #header_photo img {
 	border: 1px solid #000;
-	
+
 }
 
 #accordion > a, #accordion > a:visited {
@@ -148,4 +148,8 @@ a:active {color: #20504E; }
 
 p {
   margin-bottom: 1em;
+}
+
+#email, #contact {
+  visibility: hidden;
 }

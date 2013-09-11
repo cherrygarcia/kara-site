@@ -218,7 +218,9 @@
       var hostname = "gmail.com";
       var email = username + "@" + hostname;
       document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>'
-      document.getElementById("contact").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>'
+      document.getElementById("contact").innerHTML = '<a href="mailto:' + email + '">Contact Kara</a>'
+      document.getElementById("email").style.visibility = "visible";
+      document.getElementById("contact").style.visibility = "visible";
 
       var lmd = new Date(Date.parse(document.lastModified));
       document.getElementById("last_update").innerHTML = lmd.toDateString();
