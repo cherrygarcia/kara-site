@@ -20,9 +20,9 @@ body {
 	box-shadow: 5px 5px 15px 1px #000;
 	-moz-box-shadow: 5px 5px 15px 1px #000;
 	-webkit-box-shadow: 5px 5px 15px 1px #000;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #content {
@@ -78,7 +78,6 @@ h2 {
 h3 {
 	margin-top: 0.9em;
 	font-size: 1.3em;
-	border-bottom: thin solid #888;
 }
 
 h4 {
@@ -152,4 +151,26 @@ p {
 
 #email, #contact {
   visibility: hidden;
+}
+
+.tab-body {
+  display: none;
+}
+
+.tab-body.active {
+  display: block;
+}
+
+.tab-body-container {
+  min-height: 400px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
 }

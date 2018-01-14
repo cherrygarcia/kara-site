@@ -46,5 +46,40 @@ ul {
 }
 
 li {
-	margin-left: 30px
+	margin-left: 30px;
+}
+
+ul.tabs {
+  list-style: none;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+.tabs li {
+  margin-left: 0;
+  float:left;
+  width:20%;
+}
+.tabs  a {
+  border-radius: 3px 3px 0 0;
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#888;
+  padding:20px 0;
+  background:#f7f7f7;
+  box-sizing: border-box;
+  height: 79px;
+}
+.tabs a:hover, .tabs a.active {
+  background:#ddd;
+}
+.tab-body-container {
+  border-top: 2px solid #888;
+  padding-top: 1.5em;
+}
+.tab-body-container h3 {
+  margin-top: 0;
 }
