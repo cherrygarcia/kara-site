@@ -709,6 +709,11 @@
        $('.tab-link').removeClass('active')
        $target.addClass('active')
        $(id).addClass('active')
+       if(history.replaceState) {
+         history.replaceState(null, null, id)
+       } else {
+         window.location.hash = id;
+       }
      })
     </script>
   </body>
