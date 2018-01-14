@@ -68,10 +68,10 @@ ul.tabs {
   text-decoration:none;
   text-transform:uppercase;
   color:#888;
-  padding:20px 0;
+  padding: 15px 0;
   background:#f7f7f7;
   box-sizing: border-box;
-  height: 79px;
+  height: 69px;
 }
 .tabs a:hover, .tabs a.active {
   background:#ddd;
