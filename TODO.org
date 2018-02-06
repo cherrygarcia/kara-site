@@ -1,0 +1,41 @@
+* DONE index
+  CLOSED: [2018-01-12 Fri 21:15]
+* DONE papers
+  CLOSED: [2018-01-12 Fri 21:15]
+  - what to show
+  - how to show
+* DONE how to update with new content
+  CLOSED: [2018-01-12 Fri 21:15]
+
+* DONE email address
+
+* About Me.
+
+* Research Interests.
+
+* Publications list, including title, date, abstract, or whatever you want to say about each one.g
+
+* Teaching list.
+
+* Awards (fellowships, scholarships, etc).
+
+* CV pdf to link to.
+* DONE tabs
+  CLOSED: [2018-01-13 Sat 21:03]
+  - Research Interests
+  - Publications
+  - CV
+  - Teaching
+  - https://codepen.io/tgallimore/pen/awGzD
+* DONE one CSS stylesheet
+  CLOSED: [2018-01-14 Sun 15:50]
+* DONE hash change without navigate/new history
+  CLOSED: [2018-01-14 Sun 15:50]
+* TODO embed stylesheet
+* TODO active tab on page load if in hash
+  - https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpopstate
+* TODO embed CV PDF
+  - https://mozilla.github.io/pdf.js/examples/
+* TODO responsive
+* TODO for ideas
+  - http://jtleek.com/papers/

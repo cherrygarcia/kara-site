@@ -1,14 +1,13 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+/* style */
 body {
 	background: #707070;
 	font-family:  “Gill Sans”, Calibri, “Trebuchet MS”, sans-serif;
 	font-size: 100%;
-}
 
-/*
-#header {
-	margin-bottom: 1.5em;
 }
-*/
 
 #header {
 	width: 700px;
@@ -20,9 +19,9 @@ body {
 	box-shadow: 5px 5px 15px 1px #000;
 	-moz-box-shadow: 5px 5px 15px 1px #000;
 	-webkit-box-shadow: 5px 5px 15px 1px #000;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #content {
@@ -78,7 +77,6 @@ h2 {
 h3 {
 	margin-top: 0.9em;
 	font-size: 1.3em;
-	border-bottom: thin solid #888;
 }
 
 h4 {
@@ -152,4 +150,114 @@ p {
 
 #email, #contact {
   visibility: hidden;
+}
+
+.tab-body {
+  display: none;
+}
+
+.tab-body.active {
+  display: block;
+}
+
+.tab-body-container {
+  min-height: 400px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+/* text.css */
+
+body {
+	font: 13px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif
+}
+
+a:focus {
+	outline: 1px dotted
+}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0
+}
+
+h1 {
+	font-size: 25px
+}
+
+h2 {
+	font-size: 23px
+}
+
+h3 {
+	font-size: 21px
+}
+
+h4 {
+	font-size: 19px
+}
+
+h5 {
+	font-size: 17px
+}
+
+h6 {
+	font-size: 15px
+}
+
+ol {
+	list-style: decimal
+}
+
+ul {
+	list-style: disc
+}
+
+li {
+	margin-left: 30px;
+}
+
+ul.tabs {
+  list-style: none;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+.tabs li {
+  margin-left: 0;
+  float:left;
+  width:20%;
+}
+.tabs  a {
+  border-radius: 3px 3px 0 0;
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#888;
+  padding: 15px 0;
+  background:#f7f7f7;
+  box-sizing: border-box;
+  height: 69px;
+}
+.tabs a:hover, .tabs a.active {
+  background:#ddd;
+}
+.tab-body-container {
+  border-top: 2px solid #888;
+  padding-top: 1.5em;
+}
+.tab-body-container h3 {
+  margin-top: 0;
 }
